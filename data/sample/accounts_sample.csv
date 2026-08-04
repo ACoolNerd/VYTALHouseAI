@@ -1,0 +1,6 @@
+account_id,organization_name,segment,city,state,distance_miles,employee_estimate,priority_score,website,public_contact_page,procurement_page,status,owner,notes
+A-001,Fort Meade ecosystem contractor prospect,Government Contractor,Annapolis Junction,MD,8,500,44,,,,Research,Keith,Replace with verified organization and public source
+A-002,Cybersecurity employer prospect,Cybersecurity,Columbia,MD,5,250,42,,,,Research,Keith,Illustrative placeholder
+A-003,Healthcare workforce prospect,Healthcare,Columbia,MD,6,1000,41,,,,Research,Keith,Illustrative placeholder
+A-004,First responder agency prospect,First Responder,Howard County,MD,10,700,38,,,,Research,Keith,Illustrative placeholder
+A-005,High-school athletics prospect,Athletics/School,Howard County,MD,12,150,34,,,,Research,Keith,Requires minor safeguards

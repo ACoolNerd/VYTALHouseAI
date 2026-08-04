@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VYTAL House Enterprise Account",
+  "type": "object",
+  "required": ["account_id", "organization_name", "segment", "status"],
+  "properties": {
+    "account_id": {"type": "string"},
+    "organization_name": {"type": "string"},
+    "segment": {
+      "enum": ["Government", "Government Contractor", "Cybersecurity", "Technology", "Healthcare", "Athletics/School", "First Responder", "Corrections", "Executive", "Other"]
+    },
+    "priority_score": {"type": "number", "minimum": 0, "maximum": 50},
+    "status": {
+      "enum": ["Research", "Qualified", "Contacted", "Discovery", "Pilot", "Proposal", "Contracting", "Won", "Lost", "Nurture"]
+    }
+  }
+}
